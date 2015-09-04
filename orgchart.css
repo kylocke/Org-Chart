@@ -1,0 +1,107 @@
+.direct_report {
+  width: 179px;
+  min-height: 125px;
+  text-align: left;
+  float: left;
+  margin-left: 10px;
+  border-right: 1px dotted;
+}
+
+.direct_report_text {
+  width: 179px;
+  min-height: 115px;
+}
+.direct_report_arrow {
+  height: 10px;
+  width: 179px;
+  text-align: center;
+}
+
+.direct_report_container {
+  width: 315px;
+  float: left;
+  margin-bottom: 10px;
+}
+
+.direct_report_image {
+  width: 100px;
+  min-height: 2px;
+  float: left;
+}
+.person {
+  width: 290px;
+  float: left;
+  margin-left: 10px;
+}
+.person_info {
+  width: 290px;
+  float: left;
+  margin-left: 10px;
+}
+.person_image {
+  width: 100px;
+  float: left;
+}
+.person_container  {
+  width: 700px;
+  margin-bottom: 20px;
+  margin-top: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.container {
+  width: 927px;
+  min-height: 500px;
+  background-color: white;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 5px;
+}
+.pad_container {
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 40px;
+}
+.dr_container {
+  width: 960px;
+  float: left;  
+}
+.clear {
+  clear: both;
+}
+
+.org_person {
+  width:125px;
+  min-height:10px;
+  float:left;
+  text-align:left;
+}
+.arrow {
+  width:25px;
+  float: left;
+  text-align:center;
+}
+
+.dr_title {
+  width: 925px;
+  text-align: center;
+  border-bottom: thin black solid;
+  margin-bottom: 3px;
+}
+
+@media only screen and (max-width: 970px) {
+.direct_report { width: 57%; text-align: left; float: left; margin-left: 2%; border-right: 1% dotted;}
+.direct_report_text { width: 100%; min-height: 115px;}
+.direct_report_arrow { height: 2%; width: 100%; text-align: center;}
+.direct_report_container { width: 100%; float: left; margin-bottom: 2%;}
+.direct_report_image { width: 40%; float: left;}
+.person {  width: 59%; float: left; margin-left: 1%;}
+.person_info {  width: 100%; float: left; margin-left: 1%;}
+.person_image { width: 40%; float: left; }
+.person_container  { width: 100%; margin-bottom: 2%; margin-top: 2%; margin-left: auto; margin-right: auto; }
+.container { width: 100%; min-height: 500px; background-color: white; margin-left: auto; margin-right: auto; padding-left: 5px; }
+.pad_container { margin-left: auto;  margin-right: auto; padding-left: 40px; }
+.dr_container { width: 100%; float: left; }
+.clear { clear: both; }
+.dr_title { width: 100%; text-align: center; border-bottom: thin black solid; margin-bottom: 1%; }
+}
